@@ -14,7 +14,7 @@ const MyInfo = () => {
             found something that brings me pleasure.
           </p>
           <div className="Link_to_git">
-            <p className="Link_git">GitHub</p>
+          <a href="https://github.com/IliasArgument"><p className="Link_git">GitHub</p></a>
           </div>
         </div>
         <div className="Foto">
