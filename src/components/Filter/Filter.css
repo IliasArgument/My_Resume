@@ -1,0 +1,67 @@
+.Cards_cards {
+    margin-top: 70px;
+}
+
+.Card {
+    width: 350px;
+    height: 420px;
+    padding: 10px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 5px 6px 6px rgba(0, 0, 255, .4);
+    background: rgba(3, 0, 0, 0.082);
+}
+
+.Card:hover {
+    background: rgb(255, 255, 255);
+    transform: translateY(10px);
+    transition: all 1s ease;
+}
+
+
+.Image_card {
+    width: 350px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.Card_head {
+    margin-top: 20px;
+    font-family: Consolas;
+    line-height: 18px;
+}
+
+.Card_head_up {
+    margin: 15px;
+}
+
+.Card_git {
+    margin-left: 20px;
+    width: 110px;
+    height: 30px;
+    background: black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.Card_git:hover {
+    opacity: .7;
+}
+
+.Card_link {
+    margin: 20px auto;
+
+}
+
+.code {
+    background: rgba(43, 43, 145, 0.829);
+}
+
+.link {
+    background: rgb(199, 34, 34);
+}

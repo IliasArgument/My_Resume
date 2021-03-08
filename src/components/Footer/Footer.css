@@ -1,0 +1,14 @@
+.Footer {
+    margin-top: 80px;
+    min-width: 100%;
+    min-height: 100px;
+    background: rgba(0, 0, 0, 0.623);
+}
+.Contact {
+    width:55px;
+    margin: 40px 20px;
+}
+.Contact:hover {
+    width: 53px;
+    opacity: .8;
+}

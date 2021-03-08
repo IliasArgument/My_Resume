@@ -1,0 +1,59 @@
+.Info_profi {
+    font-weight: 800;
+    font-size: 2rem;
+    font-weight: 800;
+  }
+  
+  .My_skills {
+    min-width: 90%;
+    height: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: chartreuse;
+    font-family: Consolas;
+    border: none;
+    box-shadow: 3px 5px 6px 6px rgba(103, 103, 112, 0.4);
+  }
+  .Info_skills {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+  .Skills_soft {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: normal;
+    font-family: monospace;
+  }
+  .Skills_softs {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+.Skills_hard li:hover {
+    color: white;
+  }
+  .Skills_soft li:hover {
+    color: white;
+  }
+  .Skills_hard {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: normal;
+    font-family: monospace;
+  }
+  .Skills_head {
+    font-size:1.4rem;
+    font-family: Consolas;
+    padding-bottom: 12px;
+    border-bottom: 1px solid white;
+  }
+  li {
+    margin: 8px;
+  }

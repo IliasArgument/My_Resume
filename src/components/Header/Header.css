@@ -1,0 +1,35 @@
+.Head {
+  width: 100%;
+}
+
+.Header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.623);
+    font-family: Consolas;
+    font-weight: 600;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  ul {
+    display: flex;
+    margin: 20px;
+    list-style-type: none;
+  }
+  .li {
+    margin-left: 30px;
+    padding-right: 15px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-right: 30px;
+  }
+  .li:hover{
+    opacity: .7;
+    color:rgba(255, 251, 3, 0.836);
+    cursor: pointer;
+  }
