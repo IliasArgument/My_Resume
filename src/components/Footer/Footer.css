@@ -9,6 +9,14 @@
     margin: 40px 20px;
 }
 .Contact:hover {
-    width: 53px;
     opacity: .8;
+}
+@media (max-width: 1200px) {
+    .Contact {
+        width:40px;
+        margin: 20px 20px;
+    }
+    .Contact:hover {
+        opacity: .8;
+    }
 }

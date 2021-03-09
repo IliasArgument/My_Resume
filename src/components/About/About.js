@@ -1,5 +1,10 @@
 import React from "react";
 import "./About.css";
+import contact from "../../img/contact.png";
+import resume from "../../img/resume.png";
+
+
+
 
 const About = () => {
   return (
@@ -7,6 +12,7 @@ const About = () => {
       <h2 className="About_me_head">About me</h2>
       <div className="About_me_body">
         <div className="About_me_cv about">
+        <h3 className="Personal_info"><img className="image_res" src={resume} alt="resume"></img></h3>
           <p className="paragraf">
             Good knowledge of JavaScript and JavaScript frameworks such as
             React. I am also hardworking, efficient, flexible and can work under
@@ -30,8 +36,8 @@ const About = () => {
             Passed 3 month Coursehounter (html, css), (React/redux in 2020-2021)
           </p>
         </div>
-        <div className="About_me_cv">
-          <h3 className="Personal_info">Personal Information</h3>
+        <div className="About_me_cv contact">
+          <h3 className="Personal_info"><img className="image_res" src={contact} alt="contact"></img></h3>
           <ul className="Personal_info_me">
             <li className="Personal_info_li">Full name: Ilia Koliesnikov</li>
             <li className="Personal_info_li">
