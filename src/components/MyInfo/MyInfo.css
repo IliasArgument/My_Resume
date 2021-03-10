@@ -191,3 +191,14 @@
 
   }
 }
+@media (max-width: 400px) {
+  .My_self {
+    width: 280px;
+    height: 280px;
+    padding-bottom: 200px;
+  }
+  .Block {
+    min-height: 800px;
+    color: white;
+  }
+}

@@ -65,3 +65,54 @@
 .link {
     background: rgb(199, 34, 34);
 }
+
+@media (max-width: 800px) {
+    .Card {
+        width: 280px;
+        min-height: 380px;
+        padding: 10px;
+        margin-top: 30px;
+        /* margin-right: 60px; */
+        border: none;
+        border-radius: 20px;
+        box-shadow: 3px 5px 6px 6px rgba(0, 0, 255, .4);
+        background: rgba(3, 0, 0, 0.082);
+    }
+    .Image_card {
+        width: 280px;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    
+    .Card_head {
+        margin-top: 5px;
+        font-family: Consolas;
+        line-height: 18px;
+    }
+    .Card_head_up {
+        margin: 15px auto;
+    }
+    .Card_link {
+        margin: 20px auto;   
+        width: 100%;
+    }    
+    .Card_git {
+        margin-right: 15px;
+        width: 90px;
+        height: 30px;
+        background: black;
+        border-radius: 20px;
+        color: white;
+        text-align: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    .code {
+        background: rgba(43, 43, 145, 0.829);
+    }
+    
+    .link {
+        background: rgb(199, 34, 34);
+    }
+}

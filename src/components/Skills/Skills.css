@@ -111,13 +111,22 @@ li {
     font-weight: 600;
 
   }
+  .Skills_soft {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .Skills_hard {
 
+    font-size: 1rem;
+    font-weight: 500;
+
+  }
   .Info_skills {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin: 100px, auto;
-    padding: 15px;
+    padding: 5px;
   }
 
   .My_skills {
